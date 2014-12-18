@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3231144F19D662BB00206019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3231144E19D662BB00206019 /* main.m */; };
+		3231145219D662BB00206019 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3231145119D662BB00206019 /* AppDelegate.m */; };
+		3231145519D662BB00206019 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3231145419D662BB00206019 /* ViewController.m */; };
+		3231145819D662BB00206019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3231145619D662BB00206019 /* Main.storyboard */; };
+		3231145A19D662BB00206019 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3231145919D662BB00206019 /* Images.xcassets */; };
+		3231145D19D662BB00206019 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3231145B19D662BB00206019 /* LaunchScreen.xib */; };
+		3231146919D662BB00206019 /* Selfie_WarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3231146819D662BB00206019 /* Selfie_WarTests.m */; };
+		3231147419D662EF00206019 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147219D662EF00206019 /* Bolts.framework */; };
+		3231147519D662EF00206019 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147319D662EF00206019 /* Parse.framework */; };
+		3231148219D6633100206019 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147619D6633100206019 /* Accounts.framework */; };
+		3231148319D6633100206019 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147719D6633100206019 /* AudioToolbox.framework */; };
+		3231148419D6633100206019 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147819D6633100206019 /* CFNetwork.framework */; };
+		3231148519D6633100206019 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147919D6633100206019 /* CoreGraphics.framework */; };
+		3231148619D6633100206019 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147A19D6633100206019 /* CoreLocation.framework */; };
+		3231148719D6633100206019 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147B19D6633100206019 /* libz.dylib */; };
+		3231148819D6633100206019 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147C19D6633100206019 /* MobileCoreServices.framework */; };
+		3231148919D6633100206019 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147D19D6633100206019 /* QuartzCore.framework */; };
+		3231148A19D6633100206019 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147E19D6633100206019 /* Security.framework */; };
+		3231148B19D6633100206019 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231147F19D6633100206019 /* Social.framework */; };
+		3231148C19D6633100206019 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231148019D6633100206019 /* StoreKit.framework */; };
+		3231148D19D6633100206019 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231148119D6633100206019 /* SystemConfiguration.framework */; };
+		3231149019D67CC200206019 /* ConfirmUploadSelfieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3231148F19D67CC200206019 /* ConfirmUploadSelfieViewController.m */; };
+		3231149319D69CC800206019 /* SelfieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3231149219D69CC800206019 /* SelfieTableViewCell.m */; };
+		3231149619D69DA800206019 /* ViewSelfiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3231149519D69DA800206019 /* ViewSelfiesTableViewController.m */; };
+		3231149B19D70CDF00206019 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231149719D70CDF00206019 /* AVFoundation.framework */; };
+		3231149C19D70CDF00206019 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231149819D70CDF00206019 /* CoreMedia.framework */; };
+		3231149D19D70CDF00206019 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231149919D70CDF00206019 /* CoreVideo.framework */; };
+		3231149E19D70CDF00206019 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3231149A19D70CDF00206019 /* ImageIO.framework */; };
+		323114A119D70D5000206019 /* MyAVFoundationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323114A019D70D5000206019 /* MyAVFoundationViewController.m */; };
+		327F87EC19D77D0100525E3D /* UILabel+ResizeUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 327F87EB19D77D0100525E3D /* UILabel+ResizeUILabel.m */; };
+		327F87EF19D7C14700525E3D /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327F87EE19D7C14700525E3D /* LeaderboardViewController.m */; };
+		327F87F119D7CBD200525E3D /* congruent_pentagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 327F87F019D7CBD200525E3D /* congruent_pentagon.png */; };
+		327F87F419D7D57200525E3D /* LeaderboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 327F87F319D7D57200525E3D /* LeaderboardTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3231146319D662BB00206019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3231144119D662BB00206019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3231144819D662BB00206019;
+			remoteInfo = "Selfie War";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3231144919D662BB00206019 /* Selfie War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Selfie War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3231144D19D662BB00206019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3231144E19D662BB00206019 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3231145019D662BB00206019 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3231145119D662BB00206019 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3231145319D662BB00206019 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3231145419D662BB00206019 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3231145719D662BB00206019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3231145919D662BB00206019 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3231145C19D662BB00206019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3231146219D662BB00206019 /* Selfie WarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Selfie WarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3231146719D662BB00206019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3231146819D662BB00206019 /* Selfie_WarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Selfie_WarTests.m; sourceTree = "<group>"; };
+		3231147219D662EF00206019 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3231147319D662EF00206019 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		3231147619D6633100206019 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		3231147719D6633100206019 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3231147819D6633100206019 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3231147919D6633100206019 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3231147A19D6633100206019 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3231147B19D6633100206019 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3231147C19D6633100206019 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3231147D19D6633100206019 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3231147E19D6633100206019 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3231147F19D6633100206019 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		3231148019D6633100206019 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3231148119D6633100206019 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3231148E19D67CC200206019 /* ConfirmUploadSelfieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmUploadSelfieViewController.h; sourceTree = "<group>"; };
+		3231148F19D67CC200206019 /* ConfirmUploadSelfieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmUploadSelfieViewController.m; sourceTree = "<group>"; };
+		3231149119D69CC800206019 /* SelfieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfieTableViewCell.h; sourceTree = "<group>"; };
+		3231149219D69CC800206019 /* SelfieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfieTableViewCell.m; sourceTree = "<group>"; };
+		3231149419D69DA800206019 /* ViewSelfiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewSelfiesTableViewController.h; sourceTree = "<group>"; };
+		3231149519D69DA800206019 /* ViewSelfiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewSelfiesTableViewController.m; sourceTree = "<group>"; };
+		3231149719D70CDF00206019 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3231149819D70CDF00206019 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3231149919D70CDF00206019 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3231149A19D70CDF00206019 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		3231149F19D70D5000206019 /* MyAVFoundationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAVFoundationViewController.h; sourceTree = "<group>"; };
+		323114A019D70D5000206019 /* MyAVFoundationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAVFoundationViewController.m; sourceTree = "<group>"; };
+		327F87EA19D77D0000525E3D /* UILabel+ResizeUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ResizeUILabel.h"; sourceTree = "<group>"; };
+		327F87EB19D77D0100525E3D /* UILabel+ResizeUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ResizeUILabel.m"; sourceTree = "<group>"; };
+		327F87ED19D7C14700525E3D /* LeaderboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardViewController.h; sourceTree = "<group>"; };
+		327F87EE19D7C14700525E3D /* LeaderboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardViewController.m; sourceTree = "<group>"; };
+		327F87F019D7CBD200525E3D /* congruent_pentagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = congruent_pentagon.png; sourceTree = "<group>"; };
+		327F87F219D7D57200525E3D /* LeaderboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardTableViewCell.h; sourceTree = "<group>"; };
+		327F87F319D7D57200525E3D /* LeaderboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3231144619D662BB00206019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3231149B19D70CDF00206019 /* AVFoundation.framework in Frameworks */,
+				3231149C19D70CDF00206019 /* CoreMedia.framework in Frameworks */,
+				3231149D19D70CDF00206019 /* CoreVideo.framework in Frameworks */,
+				3231149E19D70CDF00206019 /* ImageIO.framework in Frameworks */,
+				3231148219D6633100206019 /* Accounts.framework in Frameworks */,
+				3231148319D6633100206019 /* AudioToolbox.framework in Frameworks */,
+				3231148419D6633100206019 /* CFNetwork.framework in Frameworks */,
+				3231148519D6633100206019 /* CoreGraphics.framework in Frameworks */,
+				3231148619D6633100206019 /* CoreLocation.framework in Frameworks */,
+				3231148719D6633100206019 /* libz.dylib in Frameworks */,
+				3231148819D6633100206019 /* MobileCoreServices.framework in Frameworks */,
+				3231148919D6633100206019 /* QuartzCore.framework in Frameworks */,
+				3231148A19D6633100206019 /* Security.framework in Frameworks */,
+				3231148B19D6633100206019 /* Social.framework in Frameworks */,
+				3231148C19D6633100206019 /* StoreKit.framework in Frameworks */,
+				3231148D19D6633100206019 /* SystemConfiguration.framework in Frameworks */,
+				3231147519D662EF00206019 /* Parse.framework in Frameworks */,
+				3231147419D662EF00206019 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3231145F19D662BB00206019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3231144019D662BB00206019 = {
+			isa = PBXGroup;
+			children = (
+				3231149719D70CDF00206019 /* AVFoundation.framework */,
+				3231149819D70CDF00206019 /* CoreMedia.framework */,
+				3231149919D70CDF00206019 /* CoreVideo.framework */,
+				3231149A19D70CDF00206019 /* ImageIO.framework */,
+				3231147619D6633100206019 /* Accounts.framework */,
+				3231147719D6633100206019 /* AudioToolbox.framework */,
+				3231147819D6633100206019 /* CFNetwork.framework */,
+				3231147919D6633100206019 /* CoreGraphics.framework */,
+				3231147A19D6633100206019 /* CoreLocation.framework */,
+				3231147B19D6633100206019 /* libz.dylib */,
+				3231147C19D6633100206019 /* MobileCoreServices.framework */,
+				3231147D19D6633100206019 /* QuartzCore.framework */,
+				3231147E19D6633100206019 /* Security.framework */,
+				3231147F19D6633100206019 /* Social.framework */,
+				3231148019D6633100206019 /* StoreKit.framework */,
+				3231148119D6633100206019 /* SystemConfiguration.framework */,
+				3231147219D662EF00206019 /* Bolts.framework */,
+				3231147319D662EF00206019 /* Parse.framework */,
+				3231144B19D662BB00206019 /* Selfie War */,
+				3231146519D662BB00206019 /* Selfie WarTests */,
+				3231144A19D662BB00206019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3231144A19D662BB00206019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3231144919D662BB00206019 /* Selfie War.app */,
+				3231146219D662BB00206019 /* Selfie WarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3231144B19D662BB00206019 /* Selfie War */ = {
+			isa = PBXGroup;
+			children = (
+				3231145019D662BB00206019 /* AppDelegate.h */,
+				3231145119D662BB00206019 /* AppDelegate.m */,
+				3231145319D662BB00206019 /* ViewController.h */,
+				3231145419D662BB00206019 /* ViewController.m */,
+				3231145619D662BB00206019 /* Main.storyboard */,
+				327F87F219D7D57200525E3D /* LeaderboardTableViewCell.h */,
+				327F87F319D7D57200525E3D /* LeaderboardTableViewCell.m */,
+				327F87F019D7CBD200525E3D /* congruent_pentagon.png */,
+				327F87ED19D7C14700525E3D /* LeaderboardViewController.h */,
+				327F87EE19D7C14700525E3D /* LeaderboardViewController.m */,
+				3231149F19D70D5000206019 /* MyAVFoundationViewController.h */,
+				323114A019D70D5000206019 /* MyAVFoundationViewController.m */,
+				3231149119D69CC800206019 /* SelfieTableViewCell.h */,
+				3231149219D69CC800206019 /* SelfieTableViewCell.m */,
+				3231149419D69DA800206019 /* ViewSelfiesTableViewController.h */,
+				3231149519D69DA800206019 /* ViewSelfiesTableViewController.m */,
+				3231148E19D67CC200206019 /* ConfirmUploadSelfieViewController.h */,
+				3231148F19D67CC200206019 /* ConfirmUploadSelfieViewController.m */,
+				327F87EA19D77D0000525E3D /* UILabel+ResizeUILabel.h */,
+				327F87EB19D77D0100525E3D /* UILabel+ResizeUILabel.m */,
+				3231145919D662BB00206019 /* Images.xcassets */,
+				3231145B19D662BB00206019 /* LaunchScreen.xib */,
+				3231144C19D662BB00206019 /* Supporting Files */,
+			);
+			path = "Selfie War";
+			sourceTree = "<group>";
+		};
+		3231144C19D662BB00206019 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3231144D19D662BB00206019 /* Info.plist */,
+				3231144E19D662BB00206019 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3231146519D662BB00206019 /* Selfie WarTests */ = {
+			isa = PBXGroup;
+			children = (
+				3231146819D662BB00206019 /* Selfie_WarTests.m */,
+				3231146619D662BB00206019 /* Supporting Files */,
+			);
+			path = "Selfie WarTests";
+			sourceTree = "<group>";
+		};
+		3231146619D662BB00206019 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3231146719D662BB00206019 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3231144819D662BB00206019 /* Selfie War */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3231146C19D662BC00206019 /* Build configuration list for PBXNativeTarget "Selfie War" */;
+			buildPhases = (
+				3231144519D662BB00206019 /* Sources */,
+				3231144619D662BB00206019 /* Frameworks */,
+				3231144719D662BB00206019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Selfie War";
+			productName = "Selfie War";
+			productReference = 3231144919D662BB00206019 /* Selfie War.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3231146119D662BB00206019 /* Selfie WarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3231146F19D662BC00206019 /* Build configuration list for PBXNativeTarget "Selfie WarTests" */;
+			buildPhases = (
+				3231145E19D662BB00206019 /* Sources */,
+				3231145F19D662BB00206019 /* Frameworks */,
+				3231146019D662BB00206019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3231146419D662BB00206019 /* PBXTargetDependency */,
+			);
+			name = "Selfie WarTests";
+			productName = "Selfie WarTests";
+			productReference = 3231146219D662BB00206019 /* Selfie WarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3231144119D662BB00206019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = com.jcobian;
+				TargetAttributes = {
+					3231144819D662BB00206019 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					3231146119D662BB00206019 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3231144819D662BB00206019;
+					};
+				};
+			};
+			buildConfigurationList = 3231144419D662BB00206019 /* Build configuration list for PBXProject "Selfie War" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3231144019D662BB00206019;
+			productRefGroup = 3231144A19D662BB00206019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3231144819D662BB00206019 /* Selfie War */,
+				3231146119D662BB00206019 /* Selfie WarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3231144719D662BB00206019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3231145819D662BB00206019 /* Main.storyboard in Resources */,
+				327F87F119D7CBD200525E3D /* congruent_pentagon.png in Resources */,
+				3231145D19D662BB00206019 /* LaunchScreen.xib in Resources */,
+				3231145A19D662BB00206019 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3231146019D662BB00206019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3231144519D662BB00206019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327F87EF19D7C14700525E3D /* LeaderboardViewController.m in Sources */,
+				3231149019D67CC200206019 /* ConfirmUploadSelfieViewController.m in Sources */,
+				3231145519D662BB00206019 /* ViewController.m in Sources */,
+				327F87F419D7D57200525E3D /* LeaderboardTableViewCell.m in Sources */,
+				3231149619D69DA800206019 /* ViewSelfiesTableViewController.m in Sources */,
+				327F87EC19D77D0100525E3D /* UILabel+ResizeUILabel.m in Sources */,
+				3231149319D69CC800206019 /* SelfieTableViewCell.m in Sources */,
+				3231145219D662BB00206019 /* AppDelegate.m in Sources */,
+				3231144F19D662BB00206019 /* main.m in Sources */,
+				323114A119D70D5000206019 /* MyAVFoundationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3231145E19D662BB00206019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3231146919D662BB00206019 /* Selfie_WarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3231146419D662BB00206019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3231144819D662BB00206019 /* Selfie War */;
+			targetProxy = 3231146319D662BB00206019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3231145619D662BB00206019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3231145719D662BB00206019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3231145B19D662BB00206019 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3231145C19D662BB00206019 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3231146A19D662BC00206019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3231146B19D662BC00206019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3231146D19D662BC00206019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Selfie War/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3231146E19D662BC00206019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Selfie War/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3231147019D662BC00206019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Selfie WarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Selfie War.app/Selfie War";
+			};
+			name = Debug;
+		};
+		3231147119D662BC00206019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Selfie WarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Selfie War.app/Selfie War";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3231144419D662BB00206019 /* Build configuration list for PBXProject "Selfie War" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3231146A19D662BC00206019 /* Debug */,
+				3231146B19D662BC00206019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3231146C19D662BC00206019 /* Build configuration list for PBXNativeTarget "Selfie War" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3231146D19D662BC00206019 /* Debug */,
+				3231146E19D662BC00206019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3231146F19D662BC00206019 /* Build configuration list for PBXNativeTarget "Selfie WarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3231147019D662BC00206019 /* Debug */,
+				3231147119D662BC00206019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3231144119D662BB00206019 /* Project object */;
+}
